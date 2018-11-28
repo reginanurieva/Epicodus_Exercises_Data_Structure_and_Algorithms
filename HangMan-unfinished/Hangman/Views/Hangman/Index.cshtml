@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Hangman</title>
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    </head>
+    <body>
+    <div class="container">
+      <h1>Hangman</h1>
+        @if()
+        {
+
+        }
+        else
+        {
+        <img src='../img/Hangman@Model.GetWrongGuess().png' alt="hangman">
+        <form action="/index" method="post">
+            <label for="user-guess">Make Guess:</label>
+            <input id="user-guess" name="user-guess" type="text">
+            <button type="submit">Submit</button>
+        </form>
+        <h3> @Model.GetHiddenWord()</h3>
+        }
+      </div>
+    </body>
+  </html>

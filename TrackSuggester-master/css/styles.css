@@ -1,0 +1,22 @@
+/*.col-md-6 {
+  align-items: center;
+}*/
+
+.jumbotron {
+background-color: lightpink;
+}
+
+.col-md-6 {
+  width: 60%;
+}
+ /*#output {
+   visibility: hidden;
+ }
+
+ #output2 {
+   visibility: hidden;
+ }*/
+ #output {
+   font-size: 20px;
+   font-family: cursive;
+ }
